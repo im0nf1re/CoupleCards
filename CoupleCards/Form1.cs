@@ -49,14 +49,14 @@ namespace CoupleCards
         //PictureBox[,] Masks = new PictureBox[4, 4];
 
         JojoImg[] Images;
-        JojoImg Dio = new JojoImg("//192.168.32.241/a311/Пр-17-1/Синкевич/CoupleCards/dio.jpeg");
-        JojoImg Dzorno = new JojoImg("//192.168.32.241/a311/Пр-17-1/Синкевич/CoupleCards/dzorno.jfif");
-        JojoImg Igy = new JojoImg("//192.168.32.241/a311/Пр-17-1/Синкевич/CoupleCards/igy.jpg");
-        JojoImg Jonathan = new JojoImg("//192.168.32.241/a311/Пр-17-1/Синкевич/CoupleCards/jonatan.jpg");
-        JojoImg Jozeph = new JojoImg("//192.168.32.241/a311/Пр-17-1/Синкевич/CoupleCards/jozeph.png");
-        JojoImg Kakein = new JojoImg("//192.168.32.241/a311/Пр-17-1/Синкевич/CoupleCards/kakein.jpg");
-        JojoImg Strohaim = new JojoImg("//192.168.32.241/a311/Пр-17-1/Синкевич/CoupleCards/strohaim.jfif");
-        JojoImg Valacas = new JojoImg("//192.168.32.241/a311/Пр-17-1/Синкевич/CoupleCards/valacas.jfif");
+        JojoImg Dio = new JojoImg(@"img/dio.jpeg");
+        JojoImg Dzorno = new JojoImg(@"img/dzorno.jfif");
+        JojoImg Igy = new JojoImg(@"img/igy.jpg");
+        JojoImg Jonathan = new JojoImg(@"img/jonatan.jpg");
+        JojoImg Jozeph = new JojoImg(@"img/jozeph.png");
+        JojoImg Kakein = new JojoImg(@"img/kakein.jpg");
+        JojoImg Strohaim = new JojoImg(@"img/strohaim.jfif");
+        JojoImg Valacas = new JojoImg(@"img/valacas.jfif");
 
         private void Form1_Load(object sender, EventArgs e)
         {

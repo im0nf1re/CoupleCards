@@ -16,3 +16,12 @@ Y:\Пр-17-1\Синкевич\CoupleCards\CoupleCards\obj\x86\Debug\CoupleCards.
 Y:\Пр-17-1\Синкевич\CoupleCards\CoupleCards\obj\x86\Debug\CoupleCards.Properties.Resources.resources
 Y:\Пр-17-1\Синкевич\CoupleCards\CoupleCards\obj\x86\Debug\GenerateResource.read.1.tlog
 Y:\Пр-17-1\Синкевич\CoupleCards\CoupleCards\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Артем\Desktop\CoupleCards\CoupleCards\bin\Debug\CoupleCards.exe
+C:\Users\Артем\Desktop\CoupleCards\CoupleCards\bin\Debug\CoupleCards.pdb
+C:\Users\Артем\Desktop\CoupleCards\CoupleCards\obj\x86\Debug\CoupleCards.csprojAssemblyReference.cache
+C:\Users\Артем\Desktop\CoupleCards\CoupleCards\obj\x86\Debug\CoupleCards.Form1.resources
+C:\Users\Артем\Desktop\CoupleCards\CoupleCards\obj\x86\Debug\CoupleCards.Properties.Resources.resources
+C:\Users\Артем\Desktop\CoupleCards\CoupleCards\obj\x86\Debug\CoupleCards.csproj.GenerateResource.cache
+C:\Users\Артем\Desktop\CoupleCards\CoupleCards\obj\x86\Debug\CoupleCards.csproj.CoreCompileInputs.cache
+C:\Users\Артем\Desktop\CoupleCards\CoupleCards\obj\x86\Debug\CoupleCards.exe
+C:\Users\Артем\Desktop\CoupleCards\CoupleCards\obj\x86\Debug\CoupleCards.pdb
