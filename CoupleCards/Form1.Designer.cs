@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             SecToStartLabel = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            ScoreLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // SecToStartLabel
@@ -41,11 +43,33 @@
             SecToStartLabel.TabIndex = 0;
             SecToStartLabel.Text = "label1";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(12, 15);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(65, 25);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Очки:";
+            // 
+            // ScoreLabel
+            // 
+            ScoreLabel.AutoSize = true;
+            ScoreLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            ScoreLabel.Location = new System.Drawing.Point(70, 15);
+            ScoreLabel.Name = "ScoreLabel";
+            ScoreLabel.Size = new System.Drawing.Size(23, 25);
+            ScoreLabel.TabIndex = 2;
+            ScoreLabel.Text = "0";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(604, 641);
+            this.Controls.Add(ScoreLabel);
+            this.Controls.Add(this.label1);
             this.Controls.Add(SecToStartLabel);
             this.Name = "Form1";
             this.Text = "Jojo";
@@ -59,6 +83,8 @@
 
         #endregion
 
+        private System.Windows.Forms.Label label1;
+        static public System.Windows.Forms.Label ScoreLabel;
         static public System.Windows.Forms.Label SecToStartLabel;
     }
 }

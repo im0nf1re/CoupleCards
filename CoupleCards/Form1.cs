@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Media;
 
 namespace CoupleCards
 {
@@ -40,6 +41,8 @@ namespace CoupleCards
                 }
             }
         }
+
+        static public int Score = 0;
 
         static public Card[,] Cards = new Card[4, 4];
 
@@ -94,9 +97,20 @@ namespace CoupleCards
 
         static public void Win()
         {
+            SoundPlayer winSound = new SoundPlayer(@"sound/win.wav");
+            winSound.Play();
             SecToStartLabel.Text = "Nice";
             SecToStartLabel.Location = new Point(270, 9);
             MessageBox.Show("ТЫ ПОБЕДИЛ, ЕЕЕЕЕ!");
+        }
+
+        static public void Lose()
+        {
+            SoundPlayer loseSound = new SoundPlayer(@"sound/lose.wav");
+            loseSound.Play();
+            SecToStartLabel.Text = "KONO DIO DA";
+            SecToStartLabel.Location = new Point(210, 9);
+            MessageBox.Show("ты проиграл...");
         }
     }
 }

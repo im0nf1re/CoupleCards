@@ -52,6 +52,8 @@ namespace CoupleCards
 
                             Form1.Cards[i, j].Clicked = false;
                             Clicked = false;
+
+                            Form1.Score += 3;
                             break;
                         }
 
@@ -60,6 +62,7 @@ namespace CoupleCards
                                       
                 if (!Match)
                 {
+                    Form1.Score--;
                     OpenTimer.Interval = 1000;
                     OpenTimer.Tick += new System.EventHandler(OpenTimer_Tick);
 
@@ -69,6 +72,8 @@ namespace CoupleCards
 
                 Match = false;
 
+                if (Form1.Score >= 0) Form1.ScoreLabel.Text = Form1.Score.ToString();
+                else Form1.Lose();
                 CheckWin();
             }
         }
